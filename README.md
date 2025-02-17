@@ -1,4 +1,4 @@
-#  📜 Patika Hafta-3 Projeleri
+#  📜 Patika Frontend Bootcamp Hafta-3 Projeleri
 
 ---
 
