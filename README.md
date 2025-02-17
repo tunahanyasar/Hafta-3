@@ -1,4 +1,4 @@
-#  📜 Patika Hafta-2 Projeleri
+#  📜 Patika Hafta-3 Projeleri
 
 ---
 
