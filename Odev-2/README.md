@@ -62,18 +62,18 @@
 ---
 ## :star2: Yenilikler
 
-#### Main Page:
+### Main Page:
 ![MainPage](./img-page/main-page-vs.png)
            
 
-#### Story Card:
+### Story Card:
 ![Story](./img-page/story-vs.png)
             
 
-#### Post Card:
+### Post Card:
 ![Post](./img-page/post-vs.png)
 
-#### Sidebar:
+### Sidebar:
 ![Post](./img-page/sidebar-vs.png)
 
 
