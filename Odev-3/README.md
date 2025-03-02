@@ -2,7 +2,7 @@
 
 * Bu proje, Patika Frontend Bootcamp'i için oluşturulan **Hafta-3 / Ödev-3 / Linkedin Clone** projesidir.
 * **CSS** ve **Bootstrap 4** ile responsive tasarım alıştırması için bir pratik projesidir.
-* **HTML**,**CSS**,**Bootstrap 4**  kullanılmıştır.
+* **HTML**, **CSS**, **Bootstrap 4**  kullanılmıştır.
 ---
 
 ## :computer: Kullanım
@@ -22,7 +22,7 @@
 * *img-page*
 
 1. ***index.html***: Websitesi açıldığında Linkedin Anasayfası karşılamaktadır.
-    1.  Anasayfada **header** ve **header**in içinde **logo**,**searchbar**, **nav** bulunur. 
+    1.  Anasayfada **header** ve **header**in içinde **logo**, **searchbar**, **nav** bulunur. 
     2.  İçerik 3 **Left-Aside**, **Main** ve **Right-Aside**, **Fixed-Chat** kısımlarından oluşmaktadır.
         1.  **Left-Aside**, Linkedin ansayfası gibi solda profil cardı ve öğeleri bulunur.
         2.  **Main**, en üstte gönderi oluşturma cardı ve devamında kullanıcıların paylaşımlarının bulunduğu kısımdır.
