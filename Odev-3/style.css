@@ -183,20 +183,13 @@ span.patika{
 .middle-top-card input:hover{
     background-color: #F3F3F3;
 }
-.footer-icons div:nth-child(1) .material-symbols-outlined{
-    color: #378FE9;
+.footer-icons div {
+    border-radius: 5px;
+    transition: all 0.3s ease;
     cursor: pointer;
 }
-.footer-icons div:nth-child(2) .material-symbols-outlined{
-    color: #5F9B41;
-    cursor: pointer;
-}
-.footer-icons div:nth-child(3) .material-symbols-outlined{
-    color: #E06847;
-    cursor: pointer;
-}
-.footer-icons span{
-    font-weight: 500;
+.footer-icons div:hover{
+background-color: rgb(240, 240, 240);
 }
 
 /* Post Cards */
