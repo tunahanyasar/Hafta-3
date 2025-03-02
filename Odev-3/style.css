@@ -270,13 +270,17 @@ cursor: pointer;
 .addings a:hover{
     color: skyblue;
 }
+.addings {
+    top: 0; 
+    padding-top: 60px; 
+  }
 .right-side div h5~.material-symbols-outlined{
     cursor: pointer;
     font-size: 20px;
 }
 /* ASIDE RIGHT | END */
 
-/* Fixed Bottom */
+/* CHAT | START*/
 .fixed-chat {
     position: fixed;
     bottom: 0; /* Sayfanın en altına sabitlemek için */
@@ -299,7 +303,7 @@ cursor: pointer;
 .message-ico span:hover{
     background-color: rgb(231, 231, 231);
 }
-
+/* CHAT | END*/
 
 /* @media (min-width: 200px) and (max-width: 425px) {
     .aside-top-card{
