@@ -285,7 +285,7 @@ cursor: pointer;
     position: fixed;
     bottom: 0; /* Sayfanın en altına sabitlemek için */
     right: 20px; 
-    width: 350px; 
+    width: 300px; 
     border-radius: 10px 10px 0 0;
   }
 .message{
