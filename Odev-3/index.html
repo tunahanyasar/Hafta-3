@@ -33,13 +33,13 @@
 
  <!-- ================================================ -->
 
-  <body class="">
+  <body >
     <!-- HEADER | START -->
     <header
-      class="container-fluid d-flex h-auto justify-content-around fixed-top shadow-sm mb-5"
+      class="container-fluid d-flex justify-content-around fixed-top shadow-sm mb-1 "
     >
       <!-- Logo - Searchbar Div -->
-      <div class="d-flex py-2 ml-4">
+      <div class="d-flex py-2 ml-0 ml-lg-4 mr-sm-auto mr-lg-0">
         <!-- Logo -->
         <div class="logo-div align-self-center mx-2 my-0 py-0">
           <img
@@ -49,57 +49,63 @@
           />
         </div>
         <!-- Searchbar -->
-        <div class="search position-relative d-inline-block">
+        <div class="search position-relative d-none d-md-block ">
           <i
-            class="fa-solid fa-magnifying-glass position-absolute font-weight-bold"
-          ></i>
+            class="fa-solid fa-magnifying-glass d-inline-block position-absolute font-weight-bold"
+          >  </i>
+          
           <input
-            class="h-100 px-5 rounded-lg border-0"
+            class="h-100 px-5 rounded-lg border-0 d-inline-block "
             type="text"
             placeholder="Arama yap"
           />
         </div>
+        <!-- Searc İco Responsive -->
+        <div class="d-block d-md-none d-sm-block search-ico">
+          <i class="fa-solid fa-magnifying-glass p-0 m-0"></i>
+          <span class="d-none d-sm-inline">Arama</span>
+        </div>
       </div>
       <!-- Header Icons -->
-      <nav class="header-icons d-flex py-1 px-4 align-items-end">
+      <nav class="header-icons d-flex py-1 px-lg-4 align-items-end ">
         <!-- Home -->
         <div
-          class="icon icon-first d-flex flex-column justify-content-center align-items-center mr-4"
+          class="icon icon-first d-flex flex-column justify-content-center align-items-center mr-sm-2 mr-md-4"
         >
           <i class="fa-solid fa-house icon-i"></i>
           <span class="icon-text">Ana Sayfa</span>
         </div>
         <!-- Ağım -->
         <div
-          class="icon d-flex flex-column justify-content-center align-items-center mr-4"
+          class="icon d-flex flex-column justify-content-center align-items-center mr-sm-2 mr-md-4"
         >
           <span class="material-symbols-outlined icon-i"> group </span>
-          <span class="icon-text">Ağım</span>
+          <span class="icon-text ">Ağım</span>
         </div>
         <!-- İş İlanları -->
         <div
-          class="icon d-flex flex-column justify-content-center align-items-center mr-4"
+          class="icon d-flex flex-column justify-content-center align-items-center mr-sm-2 mr-md-4"
         >
           <i class="fa-solid fa-suitcase icon-i"></i>
-          <span class="icon-text">İş İlanları</span>
+          <span class="icon-text ">İş İlanları</span>
         </div>
         <!-- Mesajlaşma -->
         <div
-          class="icon d-flex flex-column justify-content-center align-items-center mr-4"
+          class="icon d-flex flex-column justify-content-center align-items-center mr-sm-2 mr-md-4"
         >
           <span class="material-symbols-outlined icon-i"> sms </span>
-          <span class="icon-text">Mesajlaşma</span>
+          <span class="icon-text ">Mesajlaşma</span>
         </div>
         <!-- Bildirimler -->
         <div
-          class="icon d-flex flex-column justify-content-center align-items-center mr-4"
+          class="icon d-flex flex-column justify-content-center align-items-center mr-sm-2 mr-md-4"
         >
           <i class="fa-solid fa-bell icon-i"></i>
-          <span class="icon-text">Bildirimler</span>
+          <span class="icon-text ">Bildirimler</span>
         </div>
         <!-- Profil -->
         <div
-          class="d-flex flex-column justify-content-center align-items-center mr-3 border-right pr-3"
+          class="header-img d-flex flex-column justify-content-center align-items-center mr-sm-3 mr-0 pr-0 border-right pr-sm-3"
         >
           <a href="https://www.linkedin.com/in/tunahan-yasar/"
             ><img src="./img/profile-pic.png" alt="profile-pic"
@@ -117,12 +123,12 @@
             class="grid-icon d-flex flex-column align-items-center mr-4 icon"
           >
             <span class="material-symbols-outlined icon-i"> apps </span>
-            <span class="icon-text"
+            <span class="icon-text "
               >İş için <i class="fa-solid fa-caret-down"></i
             ></span>
           </div>
           <!-- Premium Link -->
-          <div class="premium w-50 text-center">
+          <div class="premium w-50 text-center d-sm-none d-lg-block">
             <a
               href="https://www.linkedin.com/premium/survey/?destRedirectURL=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2F&referenceId=%2BQk4Guw7SyOa3Q8X%2FpOHtg%3D%3D&upsellOrderOrigin=premium_nav_upsell_text"
               >0 TRY ile Premium'u deneyin</a
@@ -136,10 +142,10 @@
     <!-- ================================================ -->
 
     <!-- ================= GLOBAL CONTAINER START ================= -->
-    <div class="global container-fluid mb-5">
+    <div class="global container-fluid mb-5 ">
       <div class="row">
         <!-- LEFT ASIDE | START -->
-        <aside class="left-aside col-2 offset-1">
+        <aside class="left-aside col-12 col-sm-4  col-lg-3 col-xl-2 offset-lg-0 offset-xl-1 offset-sm-0 order-sm-1 ">
           <!-- Top Card -->
           <div
             class="bg-white rounded-lg p-3 d-flex flex-column aside-top-card"
@@ -193,7 +199,7 @@
           </div>
           <!-- Last Card -->
           <div
-            class="bg-white rounded-lg py-2 d-flex flex-column mt-2 last-card mb-5"
+            class="bg-white rounded-lg py-2 d-flex flex-column mt-2 last-card "
           >
             <div class="d-flex align-items-center text-center p-2">
               <i
@@ -226,10 +232,10 @@
         <!-- ================================================ -->
 
         <!-- MAIN | START  -->
-        <main class="middle-side col-5 ">
+        <main class="middle-side col-12 col-sm-8   col-lg-6 col-xl-5 order-sm-2 mt-4 mt-sm-0 ">
           <!--  Top Card - Start -->
           <section
-            class="middle-top-card bg-white rounded p-3 d-flex flex-column mb-4"
+            class="middle-top-card bg-white rounded p-3 d-sm-flex flex-column mb-3  "
           >
             <div class="d-flex">
               <img src="img/profile-pic.png" alt="profile-pic" width="50" />
@@ -276,7 +282,7 @@
                       width="60"
                     />
                   </div>
-                  <div class="user-title col-9 d-flex flex-column p-0 m-0">
+                  <div class="user-title col-8 d-flex flex-column pl-3 pl-md-2 pl-sm-3 pl-lg-0 p-0 m-0">
                     <h6 class="p-0 m-0">John Doe</h6>
 
                     <span class="text-muted p-0 m-0"
@@ -287,8 +293,7 @@
                       ><i class="fa-solid fa-earth-americas ml-2"></i
                     ></span>
                   </div>
-                  <div
-                    class="user-icon col-1 d-flex justify-content-end p-0 pr-3 m-0"
+                  <div class="user-icon col-2 d-flex justify-content-end p-0 pr-3 m-0"
                   >
                     <i class="fa-solid fa-ellipsis mr-4"></i>
                     <i class="fa-solid fa-xmark"></i>
@@ -318,7 +323,7 @@
                     <span class="material-symbols-outlined mr-2">
                       thumb_up
                     </span>
-                    <span>Beğen</span>
+                    <span class="d-none d-sm-block">Beğen</span>
                   </div>
                   <div
                     class="d-flex justify-content-around align-items-center p-2"
@@ -326,19 +331,19 @@
                     <span class="material-symbols-outlined mr-2">
                       comment
                     </span>
-                    <span>Yorum Yap</span>
+                    <span class="d-none d-sm-block">Yorum Yap</span>
                   </div>
                   <div
                     class="d-flex justify-content-around align-items-center p-2"
                   >
                     <span class="material-symbols-outlined mr-2"> share </span>
-                    <span>Paylaş</span>
+                    <span class="d-none d-sm-block">Paylaş</span>
                   </div>
                   <div
                     class="d-flex justify-content-around align-items-center p-2"
                   >
                     <span class="material-symbols-outlined mr-2"> send </span>
-                    <span>Gönder</span>
+                    <span class="d-none d-sm-block">Gönder</span>
                   </div>
                 </div>
               </div>
@@ -357,7 +362,7 @@
                       width="60"
                     />
                   </div>
-                  <div class="user-title col-9 d-flex flex-column p-0 m-0">
+                  <div class="user-title col-8 d-flex flex-column pl-3 pl-md-2 pl-sm-3 pl-lg-0 p-0 m-0"">
                     <h6 class="p-0 m-0">Patika.dev</h6>
 
                     <span class="text-muted p-0 m-0"
@@ -369,7 +374,7 @@
                     ></span>
                   </div>
                   <div
-                    class="user-icon col-1 d-flex justify-content-end p-0 pr-3 m-0"
+                    class="user-icon col-2 d-flex justify-content-end p-0 pr-3 m-0"
                   >
                     <i class="fa-solid fa-ellipsis mr-4"></i>
                     <i class="fa-solid fa-xmark"></i>
@@ -383,7 +388,7 @@
                   Mobil dünyada güçlü bir kariyere adım atmak için en çok tercih edilen teknolojilerden biri olan React Native ile yetkinlik kazanmaya hazır mısın? 💻 <br> <br>
                   Detaylar için linke tıkla: <span class="patika-tag"> https://patika.info.com </span>
                 </p>
-                <div class="d-flex position-relative">
+                <div class="d-flex position-relative border-bottom pb-3">
                   <img class="pr-1 w-50 img-fluid" src="img/patika-post.jpeg" alt="">
                   <img class=" img-fluid w-50" src="img/patika-post-2.jpeg" alt="">
                 </div>
@@ -394,32 +399,32 @@
                   class="post-footer-icon d-flex justify-content-around align-items-center m-3"
                 >
                   <div
-                    class="d-flex justify-content-around align-items-center p-3"
+                    class="d-flex justify-content-around align-items-center p-2"
                   >
                     <span class="material-symbols-outlined mr-2">
                       thumb_up
                     </span>
-                    <span>Beğen</span>
+                    <span class="d-none d-sm-block">Beğen</span>
                   </div>
                   <div
-                    class="d-flex justify-content-around align-items-center p-3"
+                    class="d-flex justify-content-around align-items-center p-2"
                   >
                     <span class="material-symbols-outlined mr-2">
                       comment
                     </span>
-                    <span>Yorum Yap</span>
+                    <span class="d-none d-sm-block">Yorum Yap</span>
                   </div>
                   <div
-                    class="d-flex justify-content-around align-items-center p-3"
+                    class="d-flex justify-content-around align-items-center p-2"
                   >
                     <span class="material-symbols-outlined mr-2"> share </span>
-                    <span>Paylaş</span>
+                    <span class="d-none d-sm-block">Paylaş</span>
                   </div>
                   <div
                     class="d-flex justify-content-around align-items-center p-3"
                   >
                     <span class="material-symbols-outlined mr-2"> send </span>
-                    <span>Gönder</span>
+                    <span class="d-none d-sm-block">Gönder</span>
                   </div>
                 </div>
               </div>
@@ -438,7 +443,7 @@
                       width="60"
                     />
                   </div>
-                  <div class="user-title col-9 d-flex flex-column p-0 m-0">
+                  <div class="user-title col-8 d-flex flex-column pl-3 pl-md-2 pl-sm-3 pl-lg-0 p-0 m-0">
                     <h6 class="p-0 m-0">Fredric Burton</h6>
 
                     <span class="text-muted p-0 m-0"
@@ -450,7 +455,7 @@
                     ></span>
                   </div>
                   <div
-                    class="user-icon col-1 d-flex justify-content-end p-0 pr-3 m-0"
+                    class="user-icon col-2 d-flex justify-content-end p-0 pr-3 m-0"
                   >
                     <i class="fa-solid fa-ellipsis mr-4"></i>
                     <i class="fa-solid fa-xmark"></i>
@@ -474,32 +479,32 @@
                   class="post-footer-icon d-flex justify-content-around align-items-center m-3"
                 >
                   <div
-                    class="d-flex justify-content-around align-items-center p-3"
+                    class="d-flex justify-content-around align-items-center p-2"
                   >
                     <span class="material-symbols-outlined mr-2">
                       thumb_up
                     </span>
-                    <span>Beğen</span>
+                    <span class="d-none d-sm-block">Beğen</span>
                   </div>
                   <div
-                    class="d-flex justify-content-around align-items-center p-3"
+                    class="d-flex justify-content-around align-items-center p-2"
                   >
                     <span class="material-symbols-outlined mr-2">
                       comment
                     </span>
-                    <span>Yorum Yap</span>
+                    <span class="d-none d-sm-block">Yorum Yap</span>
                   </div>
                   <div
-                    class="d-flex justify-content-around align-items-center p-3"
+                    class="d-flex justify-content-around align-items-center p-2"
                   >
                     <span class="material-symbols-outlined mr-2"> share </span>
-                    <span>Paylaş</span>
+                    <span class="d-none d-sm-block">Paylaş</span>
                   </div>
                   <div
-                    class="d-flex justify-content-around align-items-center p-3"
+                    class="d-flex justify-content-around align-items-center p-2"
                   >
                     <span class="material-symbols-outlined mr-2"> send </span>
-                    <span>Gönder</span>
+                    <span class="d-none d-sm-block">Gönder</span>
                   </div>
                 </div>
               </div>
@@ -507,8 +512,8 @@
             </article>
           </section>
           <!-- Post Cards - End -->
-           <div class="d-flex border rounded-pill justify-content-center mt-5 bg-secondary text-white">
-            <span class="text-center   px-3">Daha fazla akış güncellemelerini göster</span>
+           <div class="more d-flex rounded-pill justify-content-center mt-5 ">
+            <span class="text-center py-1 px-3">Daha fazla akış güncellemelerini göster</span>
            </div>
         </main>
         <!-- MAIN | END  -->
@@ -516,7 +521,7 @@
         <!-- ================================================ -->
 
         <!-- RIGHT ASIDE | START -->
-        <aside class="right-side col-3">
+        <aside class="right-side col-12 col-sm-8  col-lg-3 col-xl-3 offset-sm-4 offset-lg-0  order-sm-3  mt-5 mt-lg-0 ">
           <!-- Haberler -->
           <div class="bg-white d-flex flex-column rounded">
             <div class="d-flex align-baseline justify-content-between">
@@ -577,7 +582,7 @@
     <!-- ================= GLOBAL CONTAINER END ================= -->
 
     <!-- FIXED BOTTOM CHAT | START -->
-    <div class="bg-white fixed-chat ">
+    <div class="bg-white fixed-chat d-none d-md-block">
       <div class="message p-2 d-flex align-items-center justify-content-between">
         <div>
           <img class="mr-2" src="./img/profile-pic.png" width="40" alt="profile">

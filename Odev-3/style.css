@@ -18,7 +18,7 @@ body {
 /* HEADER START */
 header {
     background-color: #FFFFFF;
-    height: 54px;
+    height: 54px !important;
     z-index: 10;
 
 }
@@ -35,6 +35,22 @@ header {
 }
 .fa-solid.fa-magnifying-glass{
     padding: 10px 10px 10px 15px;
+}
+.search-ico {
+    display: flex;
+    flex-direction: row;
+    align-items:end;
+    flex: wrap ;
+    padding: 0;
+    margin: 7px;
+    gap: 10px;
+}
+.search-ico span{
+    padding-bottom: -30px;
+    font-size: 12px;
+    font-family: sans-serif;
+    font-weight: 100;
+    padding-top: 10px;
 }
 /* Header Icon Grup */
 .header-icons img{
@@ -81,6 +97,31 @@ header {
 .grid-icon .icon-i{
     font-size: 30px;
 }
+/* Header İcons Responsive Query */
+@media (max-width: 600px) {
+    .header-icons {
+      width: 100%;
+      align-items: center !important;
+      justify-content: space-around;
+    }
+  
+    .header-icons .icon {
+      margin: 0; 
+    }
+    .header-img{
+        border-right: none !important;
+        
+    }
+    .icon-text {
+      display: none; /* İkon altındaki metinleri kaldır */
+    }
+  
+    .profile-pic,
+    .grid-icon,
+    .premium {
+      display: none !important; /* Profil, grid ve premium link gizlenecek */
+    }
+  }
 /* HEADER END */
 
 /* ================================== */
@@ -88,9 +129,10 @@ header {
 /* ASIDE LEFT | START*/
 /* Aside top card */
 .aside-top-card{
-    background-image: url("./img/patika-banner.jpg");
+    background-image: url("./img/banner.jpg");
     background-repeat: no-repeat;
-    background-size: 250px 70px;
+    background-size: 100% auto;
+    background-position: top;
 }
 span.patika{
     font-weight: 500;
@@ -190,6 +232,16 @@ span.patika{
     text-decoration: underline;
     cursor: pointer;
 }
+.more{
+    border: 2px solid black;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.more:hover{
+    background-color: dimgray;
+    color: white;
+}
 /* MAIN | END */
 
 /* ================================== */
@@ -247,3 +299,23 @@ cursor: pointer;
 .message-ico span:hover{
     background-color: rgb(231, 231, 231);
 }
+
+
+/* @media (min-width: 200px) and (max-width: 425px) {
+    .aside-top-card{
+        background-size: 100% 40%;
+  }
+} 
+@media (min-width: 576px) and (max-width: 768px) {
+    .aside-top-card{
+        background-size: 130% 30%;
+  }
+}
+@media (min-width: 770px) and (max-width: 1447px) {
+    .aside-top-card{
+        background-size: 100% 30%;
+  }
+} */
+
+
+
