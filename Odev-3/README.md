@@ -38,8 +38,8 @@
 
 1. Tüm sayfaya ait responsive tasarım.
 1. Position Fixed Header
-2. Sticky Footer
-3. Posiyion Fixed Aside-Footer
+2. Sticky Aside-Footer
+3. Position Fixed Chat
 
 ## 💡 Kullanılan Yapılar | Kazanımlar
 
